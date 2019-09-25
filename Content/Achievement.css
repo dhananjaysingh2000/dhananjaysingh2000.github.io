@@ -1,0 +1,21 @@
+﻿body {
+    text-align:left;
+    font-size:large;
+}
+h1{
+    font-size: 65px;
+    text-align: center;
+}
+h2{
+    font-size:45px;
+}
+.pLG{
+    font-size:30px;
+}
+/*a {
+    color: #9d9d9d;
+}
+
+    a:hover {
+        color: white;
+    }*/

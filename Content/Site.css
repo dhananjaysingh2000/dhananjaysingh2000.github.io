@@ -1,0 +1,148 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    text-align: center;
+    /*font-family: akzidenz-grotesk-next, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+    font-family: Avenir,Consolas,sans-serif;
+    font-size: large;
+    color: #9d9d9d;
+    background-color: black;
+    line-height: 1.5em;
+    padding-top: 3.5em;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+#main {
+    max-height: 800px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.25px;
+    line-height: 38px;
+    text-transform: none;
+    color: #ffffff;
+    min-height: 400px;
+}
+a {
+    color: #9d9d9d;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    a:hover {
+        color: #ffffff;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 600;
+    }
+table {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    text-align: left;
+    font-size: larger;
+}
+#footer {
+    text-align: center;
+    background-color: #222;
+    border-color: #080808;
+    color: #9d9d9d;
+    min-height: 450px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#footer, #footer2 {
+    color: #9d9d9d;
+}
+
+#footer2 {
+    margin-top: 20px;
+}
+.black-banner {
+    background-color: #222;
+}
+.thumbnail:hover {
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
+.pCen {
+    text-align: center;
+}
+
+.bCen {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pLG {
+    font-size: x-large;
+}
+.thumbnail {
+    transition: all .8s ease-in-out;
+}
+    .thumbnail:hover {
+        z-index: 999;
+        transform: scale(1.05);
+    }
+
+.inline-block {
+    display: inline-block;
+}
+.push-right {
+    margin-left:30px;
+}
+a {
+    color: #9d9d9d;
+}
+
+    a:hover {
+        color: white;
+    }
+
+.pCen {
+    text-align: center;
+}
+
+.bCen {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subhead {
+    margin-bottom: 25px;
+}
+.thumbnaill {
+    transition: all .8s ease-in-out;
+}
+
+    .thumbnaill:hover {
+        z-index: 999;
+        transform: scale(1.05);
+    }
